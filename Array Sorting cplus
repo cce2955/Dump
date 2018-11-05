@@ -1,0 +1,36 @@
+	#include <iostream>
+#include <string>
+#include <algorithm>
+#include <math.h>
+#include <ctime>
+using namespace std;
+ //Compiler version g++ 6.3.0
+ 
+ int main()
+ {
+ 	cout << "test" << endl;
+ 	
+ 	
+	 int n;
+	 srand(time(NULL));
+ 
+	 n = rand() %10;
+	 cout << n << endl;
+	int a[n], y;
+
+ 	
+ 	for (y=1; y<n; y++)
+ 	{
+ 		a[y]= rand() %10;
+ 		cout << a[y] << endl;
+ 		}
+ 		
+	// Sorting the string vecto
+	sort (a, a + y); 
+
+ 	cout << "test" << endl;
+ 	return 0;
+ }
+ 
+
+
